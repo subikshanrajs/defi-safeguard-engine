@@ -1,0 +1,11 @@
+{
+  "schedule": "0 */1 * * * *",
+  "usdcAddress": "0xEaB57701bb9Eb40946f6Cc1652f16168C2738146",
+  "tokenAddress": "",
+  "reserveManagerAddress": "0x4A26c7765caEfd6fcBCA1774019100739E84b24B",
+  "circuitBreakerAddress": "0x6fECc256678f564DBa09093FBBb5c0Fe0166e1F7",
+  "chainSelectorName": "ethereum-testnet-sepolia",
+  "gasLimit": "500000",
+  "tier1ThresholdBps": 10150,
+  "tier2ThresholdBps": 10100,
+  "tier3Thres

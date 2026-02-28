@@ -1,0 +1,20 @@
+{
+  "name": "rwa-safeguard-workflow",
+  "version": "1.0.0",
+  "description": "Chainlink Runtime Environment workflow for RWA stablecoin safeguard",
+  "main": "main.ts",
+  "scripts": {
+    "simulate": "cre workflow simulate safeguard-workflow --target staging-settings",
+    "simulate:broadcast": "cre workflow simulate safeguard-workflow --target staging-settings --broadcast --trigger-index 0",
+    "deploy": "cre workflow deploy safeguard-workflow --target staging-settings"
+  },
+  "dependencies": {
+    "@chainlink/cre-sdk": "^1.0.7",
+    "viem": "^2.21.54",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.4"
+  }
+}

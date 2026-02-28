@@ -1,0 +1,28 @@
+cat > .gitignore << 'EOF'
+# Secrets - NEVER commit these!
+.env
+secrets.yaml
+*.key
+
+# Node modules
+node_modules/
+workflow/node_modules/
+workflow/dist/
+*.log
+
+# Foundry build artifacts
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+contracts/lib/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
