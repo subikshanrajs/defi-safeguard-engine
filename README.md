@@ -18,7 +18,7 @@ A complete implementation of a **Real-World Asset (RWA) backed stablecoin** simi
 ## 📁 **Project Structure**
 
 ```
-hackathon-demo/
+defi-safeguard/
 ├── contracts/              # Solidity smart contracts (Foundry)
 │   ├── src/
 │   │   ├── USDSToken.sol              # The stablecoin users hold
@@ -247,12 +247,6 @@ cre workflow simulate safeguard-workflow \
 
 ---
 
-## 🐛 **Troubleshooting**
-
-See [DEMO_GUIDE.md](./DEMO_GUIDE.md) § Troubleshooting for common issues and fixes.
-
----
-
 ## 📚 **Further Reading**
 
 - [Chainlink Runtime Environment Docs](https://docs.chain.link/cre)
@@ -274,5 +268,6 @@ MIT License - Built for [Hackathon Name] 2026
 - Foundry for blazing-fast Solidity tooling
 
 ---
+
 
 **Built with ❤️ for a safer DeFi future.**
